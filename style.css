@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(215, 171, 245);
+}
+
+h1{
+    color: black;
+    background-color: rgb(181, 122, 236);
+}
+
+#show_sketch{
+    float: right;
+    margin-right: 15px;
+    color: black;
+    font-size: 15px;
+}
+
+p{
+    font-size: 20px;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 150px;
+     
+    animation-name: Ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes Ani{
+    from{box-shadow: 1px 1px 38px rgb(102, 21, 122);}
+    to{box-shadow: 1px 1px 38px rgb(255, 255, 255);}
+}
+
+#score{
+    float: left;margin-left: 10px;font-size: 35px;
+}
+
+#time{
+    float: right;
+   margin-right: 40px;
+   font-size: 35px;
+}
+
+#btn{
+    margin-top: 350px;
+}
+
+
+
+
+
